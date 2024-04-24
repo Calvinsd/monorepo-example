@@ -1,0 +1,15 @@
+{
+  "name": "ws-2",
+  "version": "1.0.0",
+  "description": "Workspace two",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Testing workspaces two\" "
+  },
+  "author": "Calvin Dsouza",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/abbrev": "^1.1.5"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "ws-1",
+  "version": "1.0.0",
+  "description": "Workspace one",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Testing workspaces one\" "
+  },
+  "author": "Calvin Dsouza",
+  "license": "MIT",
+  "dependencies": {
+    "uuid": "^9.0.1"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "monorepo-example",
+  "version": "1.0.0",
+  "description": "Repository mimicking a monorepo setup",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:ws1": "npm run test --workspaces=ws1",
+    "test:ws2": "npm run test --workspaces=ws2",
+    "test:all": "npm run test --workspaces --if-present"
+  },
+  "author": "Calvin Dsouza",
+  "license": "MIT",
+  "workspaces": [
+    "ws-1",
+    "ws-2"
+  ]
+}
